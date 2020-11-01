@@ -2,3 +2,5 @@ baseURL = "https://nicola.im/"
 languageCode = "en-us"
 title = "nicola.im"
 theme = "hugo-uilite"
+
+googleAnalytics = "G-TDYW2368BT"
