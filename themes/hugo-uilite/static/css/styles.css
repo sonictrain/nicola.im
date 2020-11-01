@@ -1,9 +1,7 @@
 html {
   overflow-y: scroll;
 }
-a:hover {
-  text-decoration: none;
-}
+
 .sidebar {
   position: fixed;
   left: 0px;
@@ -440,6 +438,11 @@ section.pink {
 body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+a:hover a:link a:visited a:active {
+  text-decoration: false;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /*# sourceMappingURL=styles.css.map */

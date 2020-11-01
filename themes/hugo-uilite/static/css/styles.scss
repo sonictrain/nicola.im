@@ -8,9 +8,10 @@ html{
 }
 
 a{
-  &:hover{
-    text-decoration: none;
+  &.hover{
+    text-decoration: none;  
   }
+  
 }
 .sidebar{
 	position: fixed;

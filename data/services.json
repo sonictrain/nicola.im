@@ -1,15 +1,17 @@
 {
-	"title" : "Services",
+	"title" : "Latest works",
 	"services" : [
 		{
 			"icon" : "pencil-ruler",
 			"title" : "Logo Design",
-			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+			"link" : "https://dribbble.com/shots/6281085-Procedural-lowercase-a"
 		},
 		{
 			"icon" : "pen-nib",
 			"title" : "Graphics Design",
-			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+			"link" : "https://dribbble.com/shots/6281085-Procedural-lowercase-a"
 		}
 	]
 }
