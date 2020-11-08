@@ -441,7 +441,7 @@ body {
 }
 
 a:hover a:link a:visited a:active {
-  text-decoration: false;
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
 }
 

@@ -1,6 +1,7 @@
 {
 	"title" : "hello world, i'm",
 	"highlightedText" : "nicola",
-	"description" : "A graphic designer, based in Norwich.",
-	"displayPicture" : "mypic.webp"
+	"description" : "I'm a graphic designer, based in Norwich.",
+	"message" : "Availability message here!",
+	"displayPicture" : "nicolabrucoli.webp"
 }
