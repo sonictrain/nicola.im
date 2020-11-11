@@ -1,9 +1,9 @@
 {
 	"title" : "Skills",
 	"skills" : {
-		"3D Modeling" : "90",
-		"Render" : "85",
-		"Illustration" : "93",
-		"Web Design" : "89"
+		"Skill 1" : "90",
+		"Skill 2" : "85",
+		"Skill 3" : "93",
+		"Skill 4" : "89"
 	}
 }
