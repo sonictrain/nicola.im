@@ -2,14 +2,19 @@
 	"title" : "Experience",
 	"experience" : [
 		{
-			"timeperiod" : "May 2017 - Nov 2017",
-			"company" : "Uber",
-			"website": "https://www.uber.com",
+			"timeperiod" : "Mar 2020 - Dec 2020",
+			"company" : "3D Modeler & VR Designer @ SAAD UniCAM",
+			"description" : "University research project. Designing and development of a VR game, from 3D modeling to UI development for Virtual reality and prototyping. All done with Foundry Modo and Unreal Engine.",
+			"website" : "Coming soon"
+		},
+		{
+			"timeperiod" : "Sep 2017 - Sep 2020",
+			"company" : "UI Designer and Motion Designer @ wideverse",
 			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
 		},
 		{
-			"timeperiod" : "Nov 2017 - Present",
-			"company" : "Google",
+			"timeperiod" : "Apr 2015 - Sep 2017",
+			"company" : "Graphic Designer & 3D Visualizer @ wideverse",
 			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
 		},
 		{
