@@ -1,10 +1,16 @@
 {
 	"title" : "Latest works",
 	"portfolioLink" : "https://dribbble.com/nic0la",
-	"works" :
+	"works" : [
+		{
+			"cover" : "36DaysOfType.webp",
+			"title" : "36 Days of Type - Parametric Design",
+			"link" : "https://dribbble.com/shots/6281085-Procedural-lowercase-a"
+		},
 		{
 			"cover" : "36DaysOfType.webp",
 			"title" : "36 Days of Type - Parametric Design",
 			"link" : "https://dribbble.com/shots/6281085-Procedural-lowercase-a"
 		}
+	]
 }
