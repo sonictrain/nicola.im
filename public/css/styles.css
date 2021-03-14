@@ -239,7 +239,7 @@ section.aqua {
 
 section.mypaletteRed {
   background-color: #f76d6d;
-  color: #000 !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 section.pink {
@@ -252,7 +252,7 @@ section.pink {
 }
 
 .progress .bg-blue {
-  background-color: #2e96a5;
+  background-color: #424b4d;
 }
 
 .card {
