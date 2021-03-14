@@ -237,6 +237,10 @@ section.aqua {
   color: #000 !important;
 }
 
+section.mypaletteRed {
+  background-color: #f76d6d;
+  color: #000 !important;
+}
 section.pink {
   background-color: #fff1f1;
 }

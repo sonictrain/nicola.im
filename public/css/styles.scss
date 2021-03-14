@@ -1,6 +1,6 @@
-*{
+//*{
   // outline: 1px solid red;
-}
+//}
 
 html{
   overflow-x: hidden;
@@ -245,6 +245,11 @@ section{
 
   &.pink{
     background-color: #fff1f1;
+  }
+
+  &.mypaletteRed{
+    background-color: #f76d6d;
+    color: #000 !important;
   }
 }
 
