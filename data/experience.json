@@ -3,27 +3,18 @@
 	"experience" : [
 		{
 			"timeperiod" : "Mar 2020 - Dec 2020",
-			"company" : "3D Modeler & VR Designer @ SAAD UniCAM",
-			"website" : "Coming soon",
-			"description" : "University research project. Designing and development of a VR game, from 3D modeling to UI development for Virtual reality and prototyping. All done with Foundry Modo and Unreal Engine."
+			"company" : "company 1",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
 		},
 		{
 			"timeperiod" : "Sep 2017 - Sep 2020",
-			"company" : "UI Designer and Motion Designer @ wideverse",
-			"website" : "Coming soon",
+			"company" : "company 2",
 			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
 		},
 		{
 			"timeperiod" : "Apr 2015 - Sep 2017",
-			"company" : "Graphic Designer & 3D Visualizer @ wideverse",
-			"website" : "Coming soon",
+			"company" : "company 3",
 			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
-		},
-		{
-			"timeperiod" : "May 2013 - Nov 2016",
-			"company" : "Freelance",
-			"website" : "Coming soon",
-			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
-		}		
+		}	
 	]
 }

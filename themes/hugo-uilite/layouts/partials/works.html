@@ -1,12 +1,13 @@
 
 {{ $works := .Site.Data.works }}
-{{ $workDetail := $works.works }}
 
 <section class="blue">
     <h2 class="heading">{{ $works.title }}</h2>
   
     <div class="row">
+
       {{ range $index, $element := $works.works }}
+
       <div class="col-lg-4 col-md-4 col-12 mb-3">
           <div class="card p-4">
             <a class="mb-3" href="{{ $element.link }}">
@@ -17,16 +18,15 @@
             <a href="{{ $element.link }}"><h3 class="h4 font-weight-bold text-dark">{{ $element.title }}</h3></a>
             
             <div>
-              
-              <div class="float-right">
-                
+              <div class="float-right">  
               </div>
             </div>
           </div>
-      </div>      
+      </div>
+      {{ end }}      
     </div>
   
     <div class="text-center mt-5">
-      <a href="{{ $works.portfolioLink }}" class="btn btn-lg btn-dark-faded ">Browse all</a>
+      <a href="https://dribbble.com/nic0la" class="btn btn-lg btn-dark-faded ">Browse all</a>
     </div>
   </section>
