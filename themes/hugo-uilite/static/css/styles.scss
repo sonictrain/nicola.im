@@ -24,6 +24,8 @@ a{
   width: 40%;
   
   height: 100%;
+
+  background-color: #EDE7DD;
   
 
   .main-info *{
@@ -213,7 +215,7 @@ section{
     color: #000 !important;
 
     .progress .bg-blue{
-      background-color: #c19c43;
+      background-color: #272D48;
     }
   }
   
@@ -244,7 +246,7 @@ section{
   }
 
   &.mypaletteRed{
-    background-color: #f76d6d;
+    background-color: #F4614D;
     color: #000 !important;
   }
 
@@ -255,11 +257,12 @@ section{
 
 // styles for progress bar
 .progress{
-	height: 0.6rem;
-  background-color: #fff;
+  height: 0.8rem;
+  background-color: #EDE7DD;
+  border-radius: 0.75rem/2;
   
   .bg-blue{
-    background-color: #F7E9A0;
+    background-color: #FFB677;
   }
 }
 

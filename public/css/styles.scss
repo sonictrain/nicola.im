@@ -213,7 +213,7 @@ section{
     color: #000 !important;
 
     .progress .bg-blue{
-      background-color: #c19c43;
+      background-color: #272D48;
     }
   }
   
@@ -248,15 +248,15 @@ section{
   }
 
   &.mypaletteRed{
-    background-color: #f76d6d;
+    background-color: #F4614D;
     color: rgb(255, 255, 255) !important;
   }
 }
 
 // styles for progress bar
 .progress{
-	height: 0.6rem;
-  background-color: #fff;
+  height: 1rem;
+  background-color: #EDE7DD;
   
   .bg-blue{
     background-color: #FFB677;

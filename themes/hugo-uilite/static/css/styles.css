@@ -11,6 +11,8 @@ html {
   z-index: 1;
   width: 40%;
   height: 100%;
+
+  background-color: #EDE7DD;
 }
 .sidebar .main-info * {
   -webkit-transition: all 0.3s ease;
@@ -238,7 +240,7 @@ section.aqua {
 }
 
 section.mypaletteRed {
-  background-color: #f76d6d;
+  background-color: #F4614D;
   color: rgb(255, 255, 255) !important;
 }
 
@@ -247,14 +249,15 @@ section.pink {
 }
 
 .progress {
-  height: 0.6rem;
-  background-color: #fff;
+  height: 0.8rem;
+  background-color: #EDE7DD;
+  border-radius: 0.4rem;
 }
 
 .progress .bg-blue {
-  background-color: #F7E9A0;
+  background-color: #272D48;
 }
-
+#FFB677
 .card {
   border-radius: 6px;
   border: none;
