@@ -113,7 +113,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .highlight{
-	background-color: #ededed;
+	background-color: #272D48;
 	padding: 4px 8px;
 	/*display: inline-block;*/
 }
@@ -227,10 +227,10 @@ section{
     background-color: #cadfdf;
   }
 
-  &.orange{
-    color: #fff;
-    background-color: #fb7833;
-  }
+  // &.orange{
+  //   color: #fff;
+  //   background-color: #fb7833;
+  // }
 
   &.green{
     background-color: #aaffa7;
@@ -245,9 +245,13 @@ section{
     color: #000 !important;
   }
 
-  &.mypaletteRed{
+  &.orange{
     background-color: #F4614D;
     color: #000 !important;
+  }
+
+  &.bluish{
+    background-color: #1A2D4F;
   }
 
   &.pink{
@@ -259,10 +263,10 @@ section{
 .progress{
   height: 0.8rem;
   background-color: #EDE7DD;
-  border-radius: 0.75rem/2;
+  border-radius: 0.1rem;
   
   .bg-blue{
-    background-color: #FFB677;
+    background-color: #D03621;
   }
 }
 

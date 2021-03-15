@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .highlight {
-  background-color: #ededed;
+  background-color: #dad2c5;
   padding: 4px 8px;
   /*display: inline-block;*/
 }
@@ -221,10 +221,10 @@ section.blue {
   background-color: #cadfdf;
 }
 
-section.orange {
+/* section.orange {
   color: #fff;
   background-color: #fb7833;
-}
+} */
 
 section.green {
   background-color: #aaffa7;
@@ -239,9 +239,14 @@ section.aqua {
   color: #000 !important;
 }
 
-section.mypaletteRed {
+section.orange {
   background-color: #F4614D;
-  color: rgb(255, 255, 255) !important;
+  color: #EDE7DD !important;
+}
+
+section.bluish {
+  background-color: #1A2D4F;
+  color: #EDE7DD !important;
 }
 
 section.pink {
@@ -251,11 +256,11 @@ section.pink {
 .progress {
   height: 0.8rem;
   background-color: #EDE7DD;
-  border-radius: 0.4rem;
+  border-radius: 0.1rem;
 }
 
 .progress .bg-blue {
-  background-color: #272D48;
+  background-color: #D03621;
 }
 #FFB677
 .card {
@@ -274,7 +279,7 @@ section.pink {
   content: "";
   width: 3px;
   height: 100%;
-  background: #000;
+  background: #EDE7DD;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -296,7 +301,7 @@ section.pink {
 }
 
 #timeline .timeline-item .timeline-icon {
-  background: #000;
+  background:#EDE7DD;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -314,14 +319,15 @@ section.pink {
 }
 
 #timeline .timeline-item .timeline-content p {
-  color: rgba(0, 0, 0, 0.7);
+  color: #EDE7DD;
 }
 
 #timeline .timeline-item .timeline-content .date {
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #244783;
   padding: 10px;
   border-radius: 3px;
+  margin-top: -1rem;
 }
 
 #timeline .timeline-item .timeline-content.right {
