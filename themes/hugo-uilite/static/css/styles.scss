@@ -148,7 +148,7 @@ h1,h2,h3,h4,h5,h6{
 
 // styles for buttons
 .btn{
-  border-radius: 6px;
+  border-radius: 0px;
   transition: all 0.3s ease;
   
   &.btn-primary{
@@ -172,8 +172,8 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 300;
   font-family: 'Montserrat', sans-serif !important;
   /*text-transform: uppercase;*/
-  background-color: rgba(0,0,0,0.07);
-  color: black;
+  background-color: #272D48;
+  color: #4768FD;
 }
 // Styles for social icons
 .social{
