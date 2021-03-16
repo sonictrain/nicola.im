@@ -11,6 +11,7 @@ html {
   z-index: 1;
   width: 40%;
   height: 100%;
+  color:rgba(0, 0, 0, 0.07);
   background-color: #EDE7DD;
 }
 
