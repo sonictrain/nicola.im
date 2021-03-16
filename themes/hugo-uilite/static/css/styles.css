@@ -11,9 +11,9 @@ html {
   z-index: 1;
   width: 40%;
   height: 100%;
-
   background-color: #EDE7DD;
 }
+
 .sidebar .main-info * {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -176,11 +176,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social:hover a {
-  color: rgba(0, 0, 0, 0.4);
+  color: #272D48;
 }
 
 .social a {
-  color: black;
+  color: #272D48;
   font-size: 28px;
   margin-right: 12px;
   -webkit-transition: all 0.3s ease;
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social a:hover {
-  color: black;
+  color: #272D48;
 }
 
 .social a:hover i {
@@ -456,7 +456,7 @@ body {
 
 a:hover a:link a:visited a:active {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: #272D48;
 }
 
 /*# sourceMappingURL=styles.css.map */

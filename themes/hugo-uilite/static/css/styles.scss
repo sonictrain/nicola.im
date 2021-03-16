@@ -1,7 +1,3 @@
-*{
-  // outline: 1px solid red;
-}
-
 html{
   overflow-x: hidden;
   overflow-y: scroll; 
@@ -24,7 +20,6 @@ a{
   width: 40%;
   
   height: 100%;
-
   background-color: #EDE7DD;
   
 
@@ -184,18 +179,18 @@ h1,h2,h3,h4,h5,h6{
 .social{
   &:hover{
     a{
-      color: rgba(0,0,0,0.4);
+      color: #272D48;
     }
   }
 
   a{
-    color: rgba(0,0,0,1);
+    color: #272D48;
     font-size: 28px;
     margin-right: 12px;
     transition: all 0.3s ease;
 
     &:hover{
-      color: rgba(0,0,0,1);
+      color: #272D48;
       i{
         transform: scale(1.3);
       }
