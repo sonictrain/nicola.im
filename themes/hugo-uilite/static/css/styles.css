@@ -11,7 +11,7 @@ html {
   z-index: 1;
   width: 40%;
   height: 100%;
-  color:rgba(0, 0, 0, 0.07);
+  color: #272D48;
   background-color: #EDE7DD;
 }
 
@@ -172,12 +172,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-family: 'Montserrat', sans-serif !important;
   /*text-transform: uppercase;*/
-  background-color: rgba(0, 0, 0, 0.07);
+  background-color: #272D48;
   color: black;
 }
 
 .social:hover a {
-  color: #272D48;
+  color: #244783;
 }
 
 .social a {
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social a:hover {
-  color: #272D48;
+  color: #244783;
 }
 
 .social a:hover i {
