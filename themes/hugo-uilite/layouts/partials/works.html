@@ -4,14 +4,14 @@
 <section class="blue">
     <h2 class="heading">{{ $works.title }}</h2>
   
-    <div class="row bs">
+    <div class="row">
 
       {{ range $index, $element := $works.works }}
 
-      <div class="col-lg-4 col-md-4 col-12 mb-3 bs">
-          <div class="card p-4 bs">
-            <a class="mb-3 bs" href="{{ $element.link }}">
-              <div class="featuredImage rounded bs" style="background-size:cover;background-position:center;background-image: url('{{ .Site.BaseURL }}images/{{ $element.cover }}'); height: 180px;background-color:#fbfbfb;">   
+      <div class="col-lg-4 col-md-4 col-12 mb-3">
+          <div class="card p-4">
+            <a class="mb-3" href="{{ $element.link }}">
+              <div class="featuredImage rounded" style="background-size:cover;background-position:center;background-image: url('{{ .Site.BaseURL }}images/{{ $element.cover }}'); height: 180px;background-color:#fbfbfb;">   
               </div>
             </a>
             
@@ -26,7 +26,7 @@
       {{ end }}      
     </div>
   
-    <div class="text-center mt-5 bs">
+    <div class="text-center mt-5">
       <a href="https://dribbble.com/nic0la" class="btn btn-lg btn-dark-faded">Browse all</a>
     </div>
   </section>
