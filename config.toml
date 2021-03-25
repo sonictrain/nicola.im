@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://nicola.im"
 languageCode = "en-us"
 title = "nicola.im"
 theme = "hugo-uilite"
