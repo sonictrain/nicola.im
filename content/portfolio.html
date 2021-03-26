@@ -1,62 +1,32 @@
-
-
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-	<title>
-
-
-					Works | Nicola Brucoli
-
-	</title>
+	<title> Works | Nicola Brucoli </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
 	<link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
 	<link rel="stylesheet" type="text/css" href="https://demo.uicard.io/hugo-uilite-portfolio-demo/css/styles.css">
-
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
 	<link rel="stylesheet" href="https://demo.uicard.io/hugo-uilite-portfolio-demo//css/highlight.css">
-
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-
-
 	<meta name="author" content="Arvind Singh">
 	<meta name="theme-color" content="#000000">
-
-
-    <link href="https://demo.uicard.io/hugo-uilite-portfolio-demo/work/index.xml" rel="alternate" type="application/rss+xml" title="Martin Luther" />
-    <link href="https://demo.uicard.io/hugo-uilite-portfolio-demo/work/index.xml" rel="feed" type="application/rss+xml" title="Martin Luther" />
-
-
-
-<meta itemprop="name" content="Works">
-<meta itemprop="description" content="">
-
-<meta name="og:title" content="Works">
-<meta name="og:description" content="">
-<meta name="og:type" content="article">
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Works">
-<meta name="twitter:description" content="">
-
-<meta name="article:author" content="Arvind Singh">
-
-
-
-
-
+  <link href="https://demo.uicard.io/hugo-uilite-portfolio-demo/work/index.xml" rel="alternate" type="application/rss+xml" title="Martin Luther" />
+  <link href="https://demo.uicard.io/hugo-uilite-portfolio-demo/work/index.xml" rel="feed" type="application/rss+xml" title="Martin Luther" />
+	<meta itemprop="name" content="Works">
+	<meta itemprop="description" content="">
+	<meta name="og:title" content="Works">
+	<meta name="og:description" content="">
+	<meta name="og:type" content="article">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Works">
+	<meta name="twitter:description" content="">
+	<meta name="article:author" content="Arvind Singh">
 </head>
+
 <body class="clearfix">
-
-
-
-
-
 <nav class="navbar navbar-expand-lg navbar-light bg-white mt-lg-0 mt-3" style="position:relative">
 	<a id="menuBar" href="#0" class="bg-white" style="cursor: pointer; position: absolute; height: 22px; width: 30px;">
 		<div class="hamburger-menu"></div>
@@ -64,12 +34,10 @@
 
 	<div class="secondaryMenu p-3 bg-white">
 		<div class="">
-
-			<a href="https://demo.uicard.io/hugo-uilite-portfolio-demo/blog"><h4 class="d-inline-block mr-3 text-dark mb-0">Blog</h4></a>
-
-			<a href="https://demo.uicard.io/hugo-uilite-portfolio-demo/work"><h4 class="d-inline-block mr-3 text-dark mb-0">Work</h4></a>
-
-			<a href="https://demo.uicard.io/hugo-uilite-portfolio-demo/#contact"><h4 class="d-inline-block mr-3 text-dark mb-0">contact</h4></a>
+			{{ $menu := .Site.Data.menu }}
+			{{ range $item, $link := $menu }}
+			<a href="{{ $link }}"><h4 class="d-inline-block mr-3 text-dark mb-0">{{ item }}</h4></a>
+			{{ end }}
 
 		</div>
 	</div>
